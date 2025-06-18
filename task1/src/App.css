@@ -1,0 +1,80 @@
+
+.appContainer {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 2rem;
+  background: linear-gradient(to right, #fdfbfb, #ebedee);
+  min-height: 100vh;
+  color: #333;
+}
+
+h1 {
+  color: #7b2cbf;
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+h2 {
+  color: #9d4edd;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+p {
+  font-size: 1.1rem;
+  text-align: center;
+  margin: 0.5rem 0;
+}
+
+button {
+  background-color: #c77dff;
+  color: white;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  margin: 1rem auto;
+  display: block;
+  border-radius: 10px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background-color: #9d4edd;
+}
+
+
+
+.video-list {
+  display: flex;
+  /* flex-direction: column; */
+  align-items: center;
+  padding: 2rem;
+  background-color: #f0f4f8;
+}
+
+.video-card {
+  background-color: white;
+  border-radius: 12px;
+  padding: 1.2rem;
+  margin: 1rem auto;
+  max-width: 600px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.08);
+  transition: transform 0.2s;
+}
+
+.video-card:hover {
+  transform: scale(1.01);
+}
+
+.video-title {
+  font-size: 1.5rem;
+  color: #5a189a;
+  margin-bottom: 0.5rem;
+}
+
+.video-desc {
+  font-size: 1rem;
+  color: #444;
+  margin-bottom: 1rem;
+}

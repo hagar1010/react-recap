@@ -1,0 +1,3 @@
+- complete singleUserPage display all the incoming info from the API. 
+- increase the ability of the search params in the home page.
+- style the APP.(up to you the choice).

@@ -1,0 +1,4 @@
+- add comments for each vidoe.
+- creat Comments Components.
+- create fake api call for videos and comments
+- style the APP.(up to you).

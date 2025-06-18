@@ -1,0 +1,10 @@
+final task :
+- style all the app routes and new components(styling up to you).
+- refine the Protected route logic. (bouns)
+- add posts listing by user.
+- add a new route that create a post for the current user 
+- single post page
+- profile page
+- sign up (add new fields)
+- edit and delete post.
+- refine the axios client interseptor logic to set the refresh token proparly(bouns)
