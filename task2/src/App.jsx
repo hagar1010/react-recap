@@ -1,5 +1,6 @@
 import { Route, Routes } from "react-router-dom";
 import Paths from "./routes";
+import Header from "./components/Header";
 
 const DymaicRoute = ({ children, ...route }) => (
   <Route {...route}>
@@ -8,7 +9,12 @@ const DymaicRoute = ({ children, ...route }) => (
 );
 
 function App() {
-  return <Routes>{Paths.map(DymaicRoute)}</Routes>;
+  return (
+    <>
+      <Header />
+      <Routes>{Paths.map(DymaicRoute)}</Routes>;
+    </>
+  );
 }
 
 export default App;

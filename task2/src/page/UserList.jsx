@@ -1,6 +1,8 @@
 import { useEffect } from "react";
 import useUserStore from "../store/users";
 import UserCard from "../components/UserCard";
+import Spinner from "../components/Spinner";
+
 const UserList = () => {
   const { users, getUsers, isLoading, hasErrors } = useUserStore();
 
@@ -8,7 +10,7 @@ const UserList = () => {
     getUsers();
   }, []);
 
-  if (isLoading) return <>loading</>;
+  if (isLoading) return <Spinner />;
   if (hasErrors) {
     console.error(hasErrors);
     return <> something went wrong</>;
